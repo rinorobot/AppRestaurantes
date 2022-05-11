@@ -12,16 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppRestaurantes">
         <activity
-            android:name=".DetalleRestaurante"
+            android:name=".Login"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Registro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetalleRestaurante"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
         </activity>
     </application>
 

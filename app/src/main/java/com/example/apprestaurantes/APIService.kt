@@ -7,4 +7,7 @@ import retrofit2.http.Url
 interface APIService {
    @GET
    suspend fun getRestaurantes(@Url url:String):Response<DataRestaurantes>
+
+   @GET
+   suspend fun getUsuarios(@Url url:String):Response<DataUsers>
 }
